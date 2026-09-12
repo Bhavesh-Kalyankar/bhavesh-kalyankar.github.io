@@ -4,20 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Bhavesh Kalyankar Gaming — FC 26, GTA V, FIFA World Cup gameplay, gaming shorts and live streams.">
-  <meta name="theme-color" content="#080808">
-  <title>Bhavesh Kalyankar Gaming</title>
+  <meta name="theme-color" content="#070707">
+  <title>Bhavesh Kalyankar — Gaming</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="noise"></div>
+  <div class="grain"></div>
+  <div class="cursor-glow"></div>
 
   <header class="nav">
-    <a class="brand" href="#top" aria-label="Bhavesh Kalyankar Gaming home">
+    <a class="brand" href="#top">
       <span class="brand-mark">BK</span>
-      <span>BHAVESH<br><em>KALYANKAR</em></span>
+      <span class="brand-name">BHAVESH <i>KALYANKAR</i></span>
     </a>
     <nav class="desktop-nav">
       <a href="#featured">Featured</a>
@@ -25,33 +26,39 @@
       <a href="#videos">Videos</a>
       <a href="#shorts">Shorts</a>
     </nav>
-    <a class="nav-cta" href="https://youtube.com/@bhavesh_kalyankar" target="_blank" rel="noopener">YouTube ↗</a>
+    <div class="social-nav">
+      <a href="https://www.instagram.com/bhaveshkalyankar/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+      <a class="yt-mini" href="https://youtube.com/@bhavesh_kalyankar" target="_blank" rel="noopener">YT ↗</a>
+    </div>
     <button class="menu" aria-label="Open menu">☰</button>
   </header>
 
   <main id="top">
     <section class="hero">
       <div class="hero-copy">
-        <div class="eyebrow"><span class="dot"></span> GAMING CREATOR • INDIA</div>
-        <h1>BHAVESH<br><span>KALYANKAR</span></h1>
-        <p class="hero-sub">FC 26. GTA V. FIFA World Cup. Shorts.<br>Gameplay made to be watched.</p>
+        <div class="eyebrow"><span></span> GAMING CREATOR <b>•</b> INDIA</div>
+        <h1>BHAVESH<br><em>KALYANKAR</em></h1>
+        <p class="hero-sub">FC 26 · GTA V · FIFA World Cup<br>Gameplay, live matches & shorts.</p>
         <div class="hero-actions">
-          <a class="button primary" href="https://youtube.com/@bhavesh_kalyankar" target="_blank" rel="noopener">WATCH ON YOUTUBE <span>↗</span></a>
-          <a class="button ghost" href="#featured">EXPLORE VIDEOS <span>↓</span></a>
+          <a class="button primary" href="https://youtube.com/@bhavesh_kalyankar" target="_blank" rel="noopener">WATCH ON YOUTUBE <strong>↗</strong></a>
+          <a class="button soft" href="https://www.instagram.com/bhaveshkalyankar/" target="_blank" rel="noopener"><span class="ig-icon">◎</span> INSTAGRAM</a>
         </div>
         <div class="proof">
-          <strong>1.5M+</strong><span>views on a single Short</span>
+          <div><strong>1.5M+</strong><small>views on one Short</small></div>
           <i></i>
-          <strong>FC 26</strong><span>gameplay & live matches</span>
+          <div><strong>FC 26</strong><small>PS5 gameplay</small></div>
         </div>
       </div>
       <div class="hero-visual">
+        <div class="halo"></div>
         <div class="portrait-frame">
           <img src="profile.jpg" alt="Bhavesh Kalyankar">
+          <div class="portrait-shade"></div>
           <div class="portrait-label"><span>BK</span><div><b>BHAVESH KALYANKAR</b><small>CREATOR / GAMER</small></div></div>
         </div>
         <div class="floating-tag tag-one">FC 26</div>
         <div class="floating-tag tag-two">GTA V</div>
+        <div class="vertical-copy">BHAVESH KALYANKAR · 2026</div>
       </div>
     </section>
 
@@ -63,13 +70,12 @@
       <a class="feature-card" href="https://youtube.com/shorts/WRd2BaTeMP4" target="_blank" rel="noopener">
         <div class="feature-thumb">
           <img src="https://i.ytimg.com/vi/WRd2BaTeMP4/maxresdefault.jpg" alt="Featured bike Short thumbnail">
-          <span class="play">▶</span>
-          <span class="vertical-label">SHORTS</span>
+          <div class="thumb-overlay"></div><span class="play">▶</span><span class="vertical-label">SHORTS / 001</span>
         </div>
         <div class="feature-info">
-          <span class="red-line"></span>
-          <p>VIRAL SHORT</p>
+          <span class="red-line"></span><p>VIRAL SHORT</p>
           <h3>Royal Enfield<br><span>Bike Reel</span></h3>
+          <p class="feature-description">One of the channel's biggest moments — a bike Short that crossed 1.5 million views.</p>
           <div class="feature-bottom"><span>1.5M+ VIEWS</span><span>WATCH SHORT ↗</span></div>
         </div>
       </a>
@@ -83,43 +89,44 @@
       <div class="card-grid three">
         <a class="video-card" href="https://www.youtube.com/live/fKtXC0LTTJs" target="_blank" rel="noopener">
           <div class="thumb"><img src="https://i.ytimg.com/vi/fKtXC0LTTJs/maxresdefault.jpg" alt=""><span class="live-badge">● LIVE</span><span class="play-small">▶</span></div>
-          <div class="card-meta"><span>FC 26</span><span>WORLD CUP 2026</span></div>
-          <h3>FIFA World Cup 2026 — Live Gameplay</h3>
+          <div class="card-meta"><span>FC 26</span><span>WORLD CUP 2026</span></div><h3>FIFA World Cup 2026 — Live Gameplay</h3>
         </a>
         <a class="video-card" href="https://www.youtube.com/live/GxMrWNoIzzA" target="_blank" rel="noopener">
           <div class="thumb"><img src="https://i.ytimg.com/vi/GxMrWNoIzzA/maxresdefault.jpg" alt=""><span class="live-badge">● LIVE</span><span class="play-small">▶</span></div>
-          <div class="card-meta"><span>FC 26</span><span>WORLD CUP 2026</span></div>
-          <h3>FIFA World Cup 2026 — Live Match</h3>
+          <div class="card-meta"><span>FC 26</span><span>WORLD CUP 2026</span></div><h3>FIFA World Cup 2026 — Live Match</h3>
         </a>
         <a class="video-card" href="https://www.youtube.com/live/SPJMt5Tp6Jk" target="_blank" rel="noopener">
           <div class="thumb"><img src="https://i.ytimg.com/vi/SPJMt5Tp6Jk/maxresdefault.jpg" alt=""><span class="live-badge">● LIVE</span><span class="play-small">▶</span></div>
-          <div class="card-meta"><span>FC 26</span><span>WORLD CUP 2026</span></div>
-          <h3>FIFA World Cup 2026 — Live Stream</h3>
+          <div class="card-meta"><span>FC 26</span><span>WORLD CUP 2026</span></div><h3>FIFA World Cup 2026 — Live Stream</h3>
         </a>
       </div>
     </section>
 
     <section class="videos section" id="videos">
       <div class="section-head compact">
-        <div><span class="kicker">03 / MOST WATCHED</span><h2>THE <em>FAN FAVOURITES.</em></h2></div>
+        <div><span class="kicker">03 / MOST WATCHED</span><h2>FAN<br><em>FAVOURITES.</em></h2></div>
         <span class="section-note">TOP VIDEOS</span>
       </div>
       <div class="card-grid three">
         <a class="video-card" href="https://youtu.be/Gb8i0VPsjqA" target="_blank" rel="noopener">
           <div class="thumb"><img src="https://i.ytimg.com/vi/Gb8i0VPsjqA/maxresdefault.jpg" alt=""><span class="play-small">▶</span></div>
-          <div class="card-meta"><span>BIKES</span><span>ROYAL ENFIELD</span></div>
-          <h3>Mileage Test of Classic 350 Gun Grey 2025 | Royal Enfield New Model</h3>
+          <div class="card-meta"><span>BIKES</span><span>ROYAL ENFIELD</span></div><h3>Mileage Test of Classic 350 Gun Grey 2025 | Royal Enfield New Model</h3>
         </a>
         <a class="video-card" href="https://youtu.be/wu2fYAcqGIE" target="_blank" rel="noopener">
           <div class="thumb"><img src="https://i.ytimg.com/vi/wu2fYAcqGIE/maxresdefault.jpg" alt=""><span class="play-small">▶</span></div>
-          <div class="card-meta"><span>FC 26</span><span>ARGENTINA</span></div>
-          <h3>Argentina vs Switzerland | FIFA World Cup 2026 | PS5 Gameplay</h3>
+          <div class="card-meta"><span>FC 26</span><span>ARGENTINA</span></div><h3>Argentina vs Switzerland | FIFA World Cup 2026 | PS5 Gameplay</h3>
         </a>
         <a class="video-card" href="https://youtu.be/rkA_yG_22cg" target="_blank" rel="noopener">
           <div class="thumb"><img src="https://i.ytimg.com/vi/rkA_yG_22cg/maxresdefault.jpg" alt=""><span class="play-small">▶</span></div>
-          <div class="card-meta"><span>FC 26</span><span>BRAZIL</span></div>
-          <h3>Brazil vs Japan | FIFA World Cup 2026 | PS5 Gameplay FC26</h3>
+          <div class="card-meta"><span>FC 26</span><span>BRAZIL</span></div><h3>Brazil vs Japan | FIFA World Cup 2026 | PS5 Gameplay FC26</h3>
         </a>
+      </div>
+    </section>
+
+    <section class="social section">
+      <div class="social-card">
+        <div class="social-photo"><img src="profile.jpg" alt="Bhavesh Kalyankar"></div>
+        <div class="social-copy"><span class="kicker">FOLLOW THE OFF-SCREEN LIFE</span><h2>MORE THAN<br><em>THE GAME.</em></h2><p>Gaming on YouTube. Life, style & everything in between on Instagram.</p><a class="social-link" href="https://www.instagram.com/bhaveshkalyankar/" target="_blank" rel="noopener"><span>◎</span> @BHAVESHKALYANKAR <b>↗</b></a></div>
       </div>
     </section>
 
@@ -136,11 +143,7 @@
     </section>
 
     <section class="games section">
-      <div class="games-copy">
-        <span class="kicker">05 / CURRENTLY PLAYING</span>
-        <h2>THE<br><em>LIBRARY.</em></h2>
-        <p>A mix of football, open-world chaos and the moments worth clipping.</p>
-      </div>
+      <div class="games-copy"><span class="kicker">05 / CURRENTLY PLAYING</span><h2>THE<br><em>LIBRARY.</em></h2><p>A mix of football, open-world chaos and the moments worth clipping.</p></div>
       <div class="game-list">
         <div><span>01</span><b>EA SPORTS FC 26</b><small>FOOTBALL / PS5</small></div>
         <div><span>02</span><b>GRAND THEFT AUTO V</b><small>OPEN WORLD / GAMEPLAY</small></div>
@@ -149,20 +152,14 @@
     </section>
 
     <section class="subscribe">
-      <div class="subscribe-inner">
-        <span class="kicker">06 / JOIN THE CHANNEL</span>
-        <h2>SEE YOU<br><em>IN GAME.</em></h2>
-        <a class="button primary" href="https://youtube.com/@bhavesh_kalyankar?sub_confirmation=1" target="_blank" rel="noopener">SUBSCRIBE ON YOUTUBE ↗</a>
-      </div>
+      <div class="subscribe-inner"><span class="kicker">06 / JOIN THE CHANNEL</span><h2>SEE YOU<br><em>IN GAME.</em></h2><div class="final-actions"><a class="button primary" href="https://youtube.com/@bhavesh_kalyankar?sub_confirmation=1" target="_blank" rel="noopener">SUBSCRIBE ON YOUTUBE ↗</a><a class="button soft" href="https://www.instagram.com/bhaveshkalyankar/" target="_blank" rel="noopener"><span class="ig-icon">◎</span> FOLLOW ON INSTAGRAM</a></div></div>
     </section>
   </main>
 
   <footer>
-    <div class="footer-brand">BK</div>
-    <div><strong>BHAVESH KALYANKAR GAMING</strong><span>FC 26 • GTA V • SHORTS • LIVE</span></div>
-    <a href="https://youtube.com/@bhavesh_kalyankar" target="_blank" rel="noopener">YOUTUBE ↗</a>
+    <div class="footer-brand">BK</div><div><strong>BHAVESH KALYANKAR GAMING</strong><span>FC 26 · GTA V · SHORTS · LIVE</span></div>
+    <div class="footer-social"><a href="https://www.instagram.com/bhaveshkalyankar/" target="_blank" rel="noopener">INSTAGRAM ↗</a><a href="https://youtube.com/@bhavesh_kalyankar" target="_blank" rel="noopener">YOUTUBE ↗</a></div>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>

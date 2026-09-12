@@ -1,17 +1,10 @@
-# Bhavesh Kalyankar Gaming — Website V3
+# Bhavesh Kalyankar Gaming — Website V4
 
-A polished, responsive static website for GitHub Pages.
+Premium responsive GitHub Pages site with:
+- creator profile photo
+- YouTube featured/live/videos/shorts sections
+- Instagram integration: https://www.instagram.com/bhaveshkalyankar/
+- responsive mobile layout
+- cinematic typography, hover effects and subtle grain
 
-## Files
-- index.html
-- styles.css
-- script.js
-- profile.jpg
-
-## GitHub Pages
-Replace the existing `index.html`, `styles.css`, and `script.js` in your existing repository with these files.
-Also upload `profile.jpg` to the same root folder.
-
-Do not upload the ZIP itself to the repository.
-
-The site uses YouTube thumbnail URLs, so an internet connection is required for those thumbnails to load.
+Replace the existing `index.html`, `styles.css`, and `script.js`, and upload `profile.jpg` to the repository root. Do not upload the ZIP itself.

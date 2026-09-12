@@ -1,11 +1,4 @@
-const menu = document.querySelector('.menu');
-const nav = document.querySelector('.desktop-nav');
-if (menu) {
-  menu.addEventListener('click', () => {
-    const open = nav.classList.toggle('mobile-open');
-    menu.textContent = open ? '×' : '☰';
-  });
-}
-document.querySelectorAll('a[href^="#"]').forEach(a => {
-  a.addEventListener('click', () => nav && nav.classList.remove('mobile-open'));
-});
+const glow=document.querySelector('.cursor-glow');
+window.addEventListener('pointermove',e=>{if(glow){glow.style.left=e.clientX+'px';glow.style.top=e.clientY+'px'}});
+const menu=document.querySelector('.menu'), nav=document.querySelector('.desktop-nav');
+if(menu&&nav){menu.addEventListener('click',()=>{nav.classList.toggle('mobile-open');menu.textContent=nav.classList.contains('mobile-open')?'×':'☰'})}
