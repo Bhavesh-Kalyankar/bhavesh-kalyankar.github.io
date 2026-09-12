@@ -1,16 +1,13 @@
-# Bhavesh Kalyankar Gaming Website
+# Bhavesh Kalyankar Gaming Website — V2
 
-A free, responsive static website for the YouTube gaming channel:
-https://youtube.com/@bhavesh_kalyankar
+Updated with the user's supplied YouTube content:
+- Featured Bike Short (1.5M+ views claim supplied by user)
+- Two additional Shorts
+- Three FIFA World Cup 2026 live streams
+- Three most-viewed videos supplied by the user
+- Actual YouTube thumbnails and links
+- Responsive mobile navigation
+- SEO metadata
 
-## Files
-- `index.html` — website
-- `styles.css` — styling
-- `script.js` — mobile menu + year
-
-## Free publishing
-The easiest options are GitHub Pages, Cloudflare Pages, or Vercel.
-Upload these three files and publish the project as a static site.
-
-## Next customization
-Replace the placeholder featured cards with your actual YouTube video IDs/thumbnails for a live video grid.
+## GitHub Pages
+Replace the existing `index.html`, `styles.css`, and `script.js` in the existing repository and commit the changes.
